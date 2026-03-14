@@ -40,7 +40,7 @@ export default function HomePage() {
       <section className="relative min-h-[90vh] flex items-center bg-grid">
         <div className="absolute inset-0 bg-gradient-to-b from-dark-950/50 via-dark-950/80 to-dark-950" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight mb-6 leading-tight whitespace-nowrap mx-auto w-fit">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight mb-6 leading-tight text-center">
             Empower Your Business with{" "}
             <span className="text-gradient">AI Driven Solutions</span>
           </h1>
