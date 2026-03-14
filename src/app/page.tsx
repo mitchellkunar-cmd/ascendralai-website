@@ -167,7 +167,7 @@ export default function HomePage() {
               I&apos;m Mitch
             </h2>
             <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
-              Enterprise Oracle Consultant and AI Agent Developer. I&apos;m here to take the guesswork out of AI for your business — no buzzwords, just real results.
+              Enterprise Consultant and AI Agent Developer. I help businesses automate their operations, marketing, and sales — no buzzwords, just real results.
             </p>
             <Link href="/about" className="text-primary-500 font-medium hover:underline">
               Learn more about me &rarr;

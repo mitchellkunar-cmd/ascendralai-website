@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About — AscendralAI",
-  description: "Meet Mitch — Enterprise Oracle Consultant, AI Agent Developer, and the person behind AscendralAI.",
+  description: "Meet Mitch — Enterprise Consultant, AI Agent Developer, and the person behind AscendralAI.",
 };
 
 const values = [
@@ -29,10 +29,10 @@ const values = [
 ];
 
 const credentials = [
-  "Multiple Oracle Agentic AI Certifications",
-  "Enterprise Consultant — Oracle ERP, SCM & Integrations",
-  "Product Expert & Sales Engineer across multiple customers",
-  "Builder of external AI agents beyond the Oracle ecosystem",
+  "Multiple AI & Agentic AI Certifications",
+  "Enterprise Consultant — ERP, SCM, Marketing & Sales Operations",
+  "Product Expert & Sales Engineer across multiple industries",
+  "Builder of AI agents, automation systems & lead gen tools",
   "Hands-on architect — strategy backed by real implementation",
 ];
 
@@ -51,10 +51,10 @@ export default function AboutPage() {
               I&apos;m <span className="text-gradient">Mitch</span>
             </h1>
             <p className="text-xl text-gray-400 mb-8">
-              Enterprise Oracle Consultant & AI Agent Developer
+              Enterprise Consultant & AI Agent Developer
             </p>
             <p className="text-gray-400 text-lg leading-relaxed">
-              I specialize in Oracle ERP, Supply Chain, and Integrations — helping enterprise customers streamline operations and eliminate manual work. With multiple Oracle Agentic AI certifications and hands-on experience as both a consultant and sales engineer, I bring deep product expertise and a results-first approach to every engagement.
+              I specialize in helping businesses automate operations, marketing, and sales through AI. From enterprise ERP and supply chain integrations to lead generation and sales workflows — I bring deep product expertise, multiple AI certifications, and hands-on experience as both a consultant and sales engineer to every engagement.
             </p>
           </div>
         </div>
@@ -68,13 +68,13 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold mb-6">My Background</h2>
               <div className="space-y-4 text-gray-400">
                 <p>
-                  I consult with enterprise customers on Oracle Cloud — implementing ERP, SCM, and complex integrations that power critical business operations. It&apos;s where I learned what actually moves the needle for businesses.
+                  I work with businesses to automate the operations, marketing, and sales processes that eat up their time. My background spans enterprise ERP, supply chain, and complex integrations — which taught me what actually moves the needle.
                 </p>
                 <p>
-                  As a product expert and sales engineer, I work across multiple customers and industries, giving me a deep understanding of how businesses operate and where AI can make the biggest impact.
+                  As a product expert and sales engineer, I work across multiple customers and industries — from lead generation and sales workflows to back-office automation. I understand both sides of the business.
                 </p>
                 <p>
-                  Beyond Oracle, I build external AI agents and automation systems that extend across the full technology landscape. AscendralAI is where I bring all of that experience together — delivering intelligent automation that drives real results.
+                  I build AI agents and automation systems across the full technology landscape — not locked into any single platform. AscendralAI is where I bring all of that together to deliver intelligent automation that drives real results.
                 </p>
               </div>
             </div>
