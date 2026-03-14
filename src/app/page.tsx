@@ -128,7 +128,7 @@ export default function HomePage() {
       <section className="py-20 bg-dark-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
-            Real Results for <span className="text-gradient">Real Businesses</span>
+            What Our Clients <span className="text-gradient">Are Saying</span>
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-xl mx-auto">
             See what AI automation has done for businesses like yours.
@@ -148,7 +148,7 @@ export default function HomePage() {
                   </div>
                 </div>
                 <Link href="/case-studies" className="text-primary-500 text-sm font-medium hover:underline">
-                  Read full story &rarr;
+                  Read testimonial &rarr;
                 </Link>
               </div>
             ))}
