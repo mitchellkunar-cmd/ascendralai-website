@@ -38,9 +38,9 @@ const demos = [
   },
   {
     title: "Custom Development",
-    desc: "See a full custom AI solution built from requirements to deployment.",
+    desc: "Watch an AI inventory agent get architected, coded, and deployed live.",
     href: "/demo/custom",
-    type: "Video",
+    type: "Interactive",
     icon: "M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4",
   },
 ];
