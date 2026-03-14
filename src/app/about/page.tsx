@@ -54,7 +54,7 @@ export default function AboutPage() {
               Enterprise Consultant & AI Agent Developer
             </p>
             <p className="text-gray-400 text-lg leading-relaxed">
-              I specialize in helping businesses automate operations, marketing, and sales through AI. From enterprise ERP and supply chain integrations to lead generation and sales workflows — I bring deep product expertise, multiple AI certifications, and hands-on experience as both a consultant and sales engineer to every engagement.
+              I help businesses automate their operations, marketing, and sales through AI. Multiple certifications, hands-on enterprise experience, and a track record of building systems that actually deliver ROI.
             </p>
           </div>
         </div>
