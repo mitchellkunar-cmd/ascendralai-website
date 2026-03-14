@@ -54,7 +54,7 @@ export default function AboutPage() {
               Enterprise Oracle Consultant & AI Agent Developer
             </p>
             <p className="text-gray-400 text-lg leading-relaxed">
-              I&apos;ve spent years consulting with enterprise customers across Oracle ERP, Supply Chain, and Integrations. I hold multiple certifications in Oracle Agentic AI and bring deep product expertise as both a consultant and sales engineer — working hands-on with customers to solve real business problems through automation.
+              I specialize in Oracle ERP, Supply Chain, and Integrations — helping enterprise customers streamline operations and eliminate manual work. With multiple Oracle Agentic AI certifications and hands-on experience as both a consultant and sales engineer, I bring deep product expertise and a results-first approach to every engagement.
             </p>
           </div>
         </div>
@@ -68,10 +68,10 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold mb-6">My Background</h2>
               <div className="space-y-4 text-gray-400">
                 <p>
-                  I&apos;ve built my career consulting with enterprise customers on Oracle Cloud — implementing ERP, SCM, and complex integrations that power critical business operations.
+                  I consult with enterprise customers on Oracle Cloud — implementing ERP, SCM, and complex integrations that power critical business operations. It&apos;s where I learned what actually moves the needle for businesses.
                 </p>
                 <p>
-                  As a product expert and sales engineer, I&apos;ve worked across multiple customers and industries, giving me a deep understanding of how businesses actually operate and where AI can make the biggest impact.
+                  As a product expert and sales engineer, I work across multiple customers and industries, giving me a deep understanding of how businesses operate and where AI can make the biggest impact.
                 </p>
                 <p>
                   Beyond Oracle, I build external AI agents and automation systems that extend across the full technology landscape. AscendralAI is where I bring all of that experience together — delivering intelligent automation that drives real results.
