@@ -40,9 +40,9 @@ export default function HomePage() {
       <section className="relative min-h-[90vh] flex items-center bg-grid">
         <div className="absolute inset-0 bg-gradient-to-b from-dark-950/50 via-dark-950/80 to-dark-950" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
-          <h1 className="font-bold tracking-tight mb-6 leading-none text-center whitespace-nowrap" style={{ fontSize: "clamp(1.5rem, 4.5vw, 4.5rem)" }}>
-            Empower Your Business with{" "}
-            <span className="text-gradient">AI Driven Solutions</span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight text-center">
+            Your Business, Powered by{" "}
+            <span className="text-gradient">AI</span>
           </h1>
           <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10">
             We build automation systems that save you time, cut costs, and let you focus on what actually matters — growing your business.
