@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About — AscendralAI",
-  description: "Meet Mitch — Oracle Certified AI Agent Developer, full-time consultant, and the person behind AscendralAI.",
+  description: "Meet Mitch — Enterprise Oracle Consultant, AI Agent Developer, and the person behind AscendralAI.",
 };
 
 const values = [
@@ -29,10 +29,11 @@ const values = [
 ];
 
 const credentials = [
-  "Oracle Certified AI Agent Developer",
-  "Full-time consultant at a leading technology firm",
-  "Experience in Supply Chain, ERP, Financial Operations",
-  "Hands-on builder — not just a strategist",
+  "Multiple Oracle Agentic AI Certifications",
+  "Enterprise Consultant — Oracle ERP, SCM & Integrations",
+  "Product Expert & Sales Engineer across multiple customers",
+  "Builder of external AI agents beyond the Oracle ecosystem",
+  "Hands-on architect — strategy backed by real implementation",
 ];
 
 export default function AboutPage() {
@@ -50,10 +51,10 @@ export default function AboutPage() {
               I&apos;m <span className="text-gradient">Mitch</span>
             </h1>
             <p className="text-xl text-gray-400 mb-8">
-              Oracle Certified AI Agent Developer with a blue collar background.
+              Enterprise Oracle Consultant & AI Agent Developer
             </p>
             <p className="text-gray-400 text-lg leading-relaxed">
-              I&apos;m not here to sell you on AI buzzwords. I&apos;m here to save you time and make you money. I&apos;ve spent years in enterprise consulting — supply chain, ERP, financial operations — and I bring that real-world experience to every automation I build.
+              I&apos;ve spent years consulting with enterprise customers across Oracle ERP, Supply Chain, and Integrations. I hold multiple certifications in Oracle Agentic AI and bring deep product expertise as both a consultant and sales engineer — working hands-on with customers to solve real business problems through automation.
             </p>
           </div>
         </div>
@@ -67,13 +68,13 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold mb-6">My Background</h2>
               <div className="space-y-4 text-gray-400">
                 <p>
-                  I come from a blue collar background. I understand what it&apos;s like to work hard, wear multiple hats, and feel like there aren&apos;t enough hours in the day. That&apos;s exactly why I started AscendralAI.
+                  I&apos;ve built my career consulting with enterprise customers on Oracle Cloud — implementing ERP, SCM, and complex integrations that power critical business operations.
                 </p>
                 <p>
-                  After getting Oracle certified and spending years consulting for enterprise companies, I realized that the same powerful AI tools being used by Fortune 500 companies could transform small and mid-size businesses — if someone just made it accessible.
+                  As a product expert and sales engineer, I&apos;ve worked across multiple customers and industries, giving me a deep understanding of how businesses actually operate and where AI can make the biggest impact.
                 </p>
                 <p>
-                  That&apos;s what I do. I take complex AI capabilities and turn them into simple, reliable automation systems that work for real businesses with real problems.
+                  Beyond Oracle, I build external AI agents and automation systems that extend across the full technology landscape. AscendralAI is where I bring all of that experience together — delivering intelligent automation that drives real results.
                 </p>
               </div>
             </div>
