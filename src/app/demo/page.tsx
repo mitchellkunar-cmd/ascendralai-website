@@ -43,7 +43,8 @@ export default function DemoPage() {
     let idx = 0;
     const interval = setInterval(() => {
       if (idx < fakLeads.length) {
-        setLeads((prev) => [...prev, fakLeads[idx]]);
+        const lead = fakLeads[idx];
+        setLeads((prev) => [...prev, lead]);
         idx++;
       } else {
         clearInterval(interval);
@@ -51,11 +52,15 @@ export default function DemoPage() {
         setScanComplete(true);
       }
     }, 600);
+    return () => clearInterval(interval);
   }, []);
 
   useEffect(() => {
     if (!gated) {
-      const timer = setTimeout(startScan, 500);
+      const timer = setTimeout(() => {
+        const cleanup = startScan();
+        return cleanup;
+      }, 500);
       return () => clearTimeout(timer);
     }
   }, [gated, startScan]);
