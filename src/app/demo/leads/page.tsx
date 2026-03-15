@@ -23,18 +23,9 @@ const fakeLeads: Lead[] = [
 ];
 
 export default function LeadsDemoPage() {
-  const [gated, setGated] = useState(true);
-  const [form, setForm] = useState({ name: "", email: "", business: "" });
   const [scanning, setScanning] = useState(false);
   const [leads, setLeads] = useState<Lead[]>([]);
   const [scanComplete, setScanComplete] = useState(false);
-
-  const handleGateSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (form.name && form.email) {
-      setGated(false);
-    }
-  };
 
   const startScan = useCallback(() => {
     setScanning(true);
@@ -56,46 +47,11 @@ export default function LeadsDemoPage() {
   }, []);
 
   useEffect(() => {
-    if (!gated) {
-      const timer = setTimeout(() => {
-        startScan();
-      }, 500);
-      return () => clearTimeout(timer);
-    }
-  }, [gated, startScan]);
-
-  if (gated) {
-    return (
-      <section className="min-h-screen flex items-center justify-center bg-dark-950 bg-grid relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-dark-950/50 to-dark-950" />
-        <div className="relative bg-dark-700 rounded-2xl p-8 sm:p-10 border border-white/5 max-w-md w-full mx-4">
-          <h1 className="text-2xl sm:text-3xl font-bold mb-2 text-center">
-            See our lead generation tool <span className="text-gradient">in action</span>
-          </h1>
-          <p className="text-gray-400 text-sm text-center mb-8">
-            Enter your info below and watch AI find leads in real-time.
-          </p>
-          <form onSubmit={handleGateSubmit} className="space-y-4">
-            <div>
-              <label className="block text-sm text-gray-400 mb-1">Name *</label>
-              <input type="text" required value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} className="w-full bg-dark-600 border border-white/10 rounded-lg px-4 py-2.5 text-white text-sm focus:outline-none focus:border-primary-500 transition-colors" placeholder="Your name" />
-            </div>
-            <div>
-              <label className="block text-sm text-gray-400 mb-1">Email *</label>
-              <input type="email" required value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} className="w-full bg-dark-600 border border-white/10 rounded-lg px-4 py-2.5 text-white text-sm focus:outline-none focus:border-primary-500 transition-colors" placeholder="you@company.com" />
-            </div>
-            <div>
-              <label className="block text-sm text-gray-400 mb-1">Business Name (optional)</label>
-              <input type="text" value={form.business} onChange={(e) => setForm({ ...form, business: e.target.value })} className="w-full bg-dark-600 border border-white/10 rounded-lg px-4 py-2.5 text-white text-sm focus:outline-none focus:border-primary-500 transition-colors" placeholder="Your business" />
-            </div>
-            <button type="submit" className="w-full bg-gradient-orange text-white font-semibold py-3 rounded-lg hover:opacity-90 transition-opacity">
-              Watch the Demo
-            </button>
-          </form>
-        </div>
-      </section>
-    );
-  }
+    const timer = setTimeout(() => {
+      startScan();
+    }, 500);
+    return () => clearTimeout(timer);
+  }, [startScan]);
 
   return (
     <section className="min-h-screen bg-dark-950 py-12">
