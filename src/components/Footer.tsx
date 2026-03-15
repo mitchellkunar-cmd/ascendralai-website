@@ -24,6 +24,7 @@ export default function Footer() {
                 { href: "/case-studies", label: "Testimonials" },
                 { href: "/process", label: "My Process" },
                 { href: "/about", label: "About" },
+                { href: "/demo", label: "Demo" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="text-gray-500 hover:text-primary-500 text-sm transition-colors">
