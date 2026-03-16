@@ -131,7 +131,7 @@ export default function AboutPage() {
             rel="noopener noreferrer"
             className="bg-gradient-orange text-white font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg inline-block"
           >
-            Book a Free Call with Mitch
+            Free Intro Call with Mitch
           </a>
         </div>
       </section>

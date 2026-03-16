@@ -76,7 +76,7 @@ export default function DemosPage() {
                   rel="noopener noreferrer"
                   className="bg-gradient-orange text-white font-semibold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity"
                 >
-                  Book a Call
+                  Free Intro Call
                 </a>
                 <Link
                   href="/services"

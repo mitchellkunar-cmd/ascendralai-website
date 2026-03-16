@@ -43,7 +43,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="bg-gradient-orange text-white text-sm font-semibold px-5 py-2 rounded-lg hover:opacity-90 transition-opacity"
             >
-              Book a Call
+              Free Intro Call
             </a>
           </nav>
 
@@ -82,7 +82,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="bg-gradient-orange text-white text-sm font-semibold px-5 py-2 rounded-lg text-center hover:opacity-90 transition-opacity"
             >
-              Book a Call
+              Free Intro Call
             </a>
           </nav>
         )}

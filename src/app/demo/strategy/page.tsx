@@ -460,7 +460,7 @@ export default function StrategyDemoPage() {
             <h3 className="text-xl font-bold mb-2">This is what you walk away with after one call</h3>
             <p className="text-gray-400 text-sm mb-6">A full AI readiness assessment, opportunity analysis with ROI projections, and a prioritized implementation roadmap — tailored to your business.</p>
             <a href="https://cal.com/mitchell-kunar-ga4jvw/30min" target="_blank" rel="noopener noreferrer" className="bg-gradient-orange text-white font-semibold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">
-              Book Your Free Assessment
+              Free Intro Call
             </a>
           </div>
         )}

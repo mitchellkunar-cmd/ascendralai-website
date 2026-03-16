@@ -199,7 +199,7 @@ export default function ProcessPage() {
               rel="noopener noreferrer"
               className="bg-gradient-orange text-white font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg inline-block"
             >
-              Book a Free Call
+              Free Intro Call
             </a>
             <Link
               href="/demo"

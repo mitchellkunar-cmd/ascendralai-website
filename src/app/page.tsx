@@ -60,7 +60,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="border border-white/20 text-white font-semibold px-8 py-3 rounded-lg hover:border-primary-500 hover:text-primary-500 transition-colors text-lg"
             >
-              Book a Free Call
+              Free Intro Call
             </a>
           </div>
         </div>
@@ -191,7 +191,7 @@ export default function HomePage() {
             rel="noopener noreferrer"
             className="bg-gradient-orange text-white font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg inline-block animate-pulse-glow"
           >
-            Book a Free Call
+            Free Intro Call
           </a>
         </div>
       </section>

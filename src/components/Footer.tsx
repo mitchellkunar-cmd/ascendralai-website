@@ -68,7 +68,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="bg-gradient-orange text-white text-sm font-semibold px-5 py-2 rounded-lg inline-block hover:opacity-90 transition-opacity"
             >
-              Book a Free Call
+              Free Intro Call
             </a>
           </div>
         </div>

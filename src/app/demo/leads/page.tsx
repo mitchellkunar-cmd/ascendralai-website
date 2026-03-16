@@ -143,7 +143,7 @@ export default function LeadsDemoPage() {
             <h3 className="text-xl font-bold mb-2">Want real leads like these?</h3>
             <p className="text-gray-400 text-sm mb-6">This is just a taste. We&apos;ll build a custom lead gen system tuned to your exact market.</p>
             <a href="https://cal.com/mitchell-kunar-ga4jvw/30min" target="_blank" rel="noopener noreferrer" className="bg-gradient-orange text-white font-semibold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">
-              Book a Call — It&apos;s Free
+              Free Intro Call
             </a>
           </div>
         )}

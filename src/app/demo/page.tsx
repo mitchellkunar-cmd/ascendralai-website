@@ -106,7 +106,7 @@ export default function DemoHubPage() {
           <h2 className="text-3xl font-bold mb-4">Want to see what we can build for <span className="text-gradient">your business</span>?</h2>
           <p className="text-gray-400 mb-8">Book a free strategy call and we&apos;ll walk you through exactly how automation can work for you.</p>
           <a href="https://cal.com/mitchell-kunar-ga4jvw/30min" target="_blank" rel="noopener noreferrer" className="bg-gradient-orange text-white font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg inline-block">
-            Book a Free Call
+            Free Intro Call
           </a>
         </div>
       </section>

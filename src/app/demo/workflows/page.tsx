@@ -344,7 +344,7 @@ export default function WorkflowsDemoPage() {
             <h3 className="text-xl font-bold mb-2">This PO took 3 hours instead of 3-5 days</h3>
             <p className="text-gray-400 text-sm mb-6">We&apos;ll map your business processes and build custom workflows that eliminate manual handoffs, approvals, and data entry.</p>
             <a href="https://cal.com/mitchell-kunar-ga4jvw/30min" target="_blank" rel="noopener noreferrer" className="bg-gradient-orange text-white font-semibold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">
-              Book a Call — It&apos;s Free
+              Free Intro Call
             </a>
           </div>
         )}
