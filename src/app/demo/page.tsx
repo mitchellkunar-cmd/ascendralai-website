@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Live Demos — AscendralAI",
+  description:
+    "Try interactive demos of our AI automation tools: lead generation, email triage, document processing, workflows, strategy, and custom solutions.",
+  alternates: { canonical: "/demo" },
+};
 
 const demos = [
   {
