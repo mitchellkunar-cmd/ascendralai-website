@@ -44,9 +44,8 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-dark-950/50 to-dark-950" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-orange flex items-center justify-center text-3xl font-bold">
-              M
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/headshot.jpg" alt="Mitch" className="w-28 h-28 mx-auto mb-6 rounded-full object-cover border-2 border-primary-500/30" />
             <h1 className="text-4xl sm:text-5xl font-bold mb-4">
               I&apos;m <span className="text-gradient">Mitch</span>
             </h1>

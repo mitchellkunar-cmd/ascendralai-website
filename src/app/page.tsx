@@ -160,9 +160,8 @@ export default function HomePage() {
       <section className="py-20 bg-dark-950">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-dark-700 rounded-2xl p-10 border border-white/5">
-            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-gradient-orange flex items-center justify-center text-2xl font-bold">
-              M
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/headshot.jpg" alt="Mitch" className="w-20 h-20 mx-auto mb-6 rounded-full object-cover border-2 border-primary-500/30" />
             <h2 className="text-2xl sm:text-3xl font-bold mb-4">
               I&apos;m Mitch
             </h2>
