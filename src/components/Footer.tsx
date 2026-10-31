@@ -63,7 +63,7 @@ export default function Footer() {
               Ready to automate your business? Let&apos;s talk.
             </p>
             <a
-              href="https://cal.com/mitchell-kunar-ga4jvw/30min"
+              href="https://cal.com/d/qVk6jVr7e3CzJVEfeQyhk7/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-orange text-white text-sm font-semibold px-5 py-2 rounded-lg inline-block hover:opacity-90 transition-opacity"
